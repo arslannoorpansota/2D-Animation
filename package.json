@@ -5,8 +5,8 @@
   "main": "linear.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "NODE_ENV=development postcss src/styles.css -o ./dist/tailwind.css -w",
-    "build": "NODE_ENV=production postcss src/styles.css -o ./dist/dist/tailwind.css && cp -r ./src/. ./dist"
+    "dev": "NODE_ENV=development postcss src/styles.css -o ./src/tailwind.min.css -w",
+    "build": "NODE_ENV=production postcss src/styles.css -o ./dist/tailwind.min.css && cp -r ./src/. ./dist"
   },
   "keywords": [],
   "author": "",
